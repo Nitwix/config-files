@@ -191,3 +191,9 @@ assign [class="Gnome-terminal"] $ws1
 assign [class="Chromium-browser"] $ws2
 
 assign [class="Code"] $ws4
+assign [class="TexMaker"] $ws4
+assign [class="Evince"] $ws5
+
+#custom bindings
+bindsym $mod+Shift+s exec gnome-terminal --command="sudo shutdown now"
+bindsym XF86Sleep exec gnome-terminal --command="sudo pm-suspend"
